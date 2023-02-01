@@ -19,3 +19,7 @@ $```cd NmapScript```
 Run EZ Nmap:
 
 $```python3 nmapscript.py```
+
+## How To Use
+
+Once the tool is running, type the ```help``` command to display all the available options and what they do.
