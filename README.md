@@ -5,4 +5,4 @@ EZ Nmap allows you to use Nmap quickly and efficiently whether you know or don't
 # Installation
 
 Linux Installation:
-To install, use the command 
+To install, use the command '''https://github.com/Wh1ppedKreem/NmapScript.git'''
