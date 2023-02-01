@@ -21,7 +21,7 @@ It has various options for scans including:
 ### Linux Installation:
 Clone the repository:
 
-$```git clone https://github.com/Wh1ppedKreem/NmapScript.git```
+$```git clone https://github.com/Wh1ppedKreem/EZNmap.git```
 
 Go to "NmapScript" Directory:
 
