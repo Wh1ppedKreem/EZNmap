@@ -74,7 +74,7 @@ def main():
             # Moderate Scan
             os.system(f"sudo nmap -sC -sV -O {ip_address}")
         elif choice == 4:
-            # Heavy Scan
+            # Intense Scan
             os.system(f"sudo nmap -sC -sV -O --script vuln {ip_address}")
         elif choice == 5:
             # Super Scan
