@@ -13,7 +13,7 @@ It has various options for scans including:
 - Heavy Scan
 - Super Scan
 
-![image](https://user-images.githubusercontent.com/78312390/216130262-3b554512-9a3b-4e12-922a-fc0b43bed103.png)
+![image](https://user-images.githubusercontent.com/78312390/216133820-b6e08e5c-4292-4b60-b4b0-7494045afa4c.png)
 
 
 # Installation
