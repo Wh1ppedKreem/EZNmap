@@ -7,11 +7,11 @@ EZ Nmap allows you to use Nmap quickly and efficiently whether you know or don't
 
 It has various options for scans including:
 
--Stealth Scan
--Light Scan
--Moderate Scan
--Heavy Scan
--Super Scan
+- Stealth Scan
+- Light Scan
+- Moderate Scan
+- Heavy Scan
+- Super Scan
 
 # Installation
 
