@@ -23,13 +23,13 @@ Clone the repository:
 
 $```git clone https://github.com/Wh1ppedKreem/EZNmap.git```
 
-Go to "NmapScript" Directory:
+Go to "nmapscript" Directory:
 
 $```cd nmapscript```
 
 Run EZ Nmap:
 
-$```python3 nmapscript.py```
+$```python3 eznmap.py```
 
 ## Coming Soon
 
