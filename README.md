@@ -1,2 +1,2 @@
 # NmapScript
-hello
+#hello
