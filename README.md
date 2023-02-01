@@ -5,6 +5,14 @@
 
 EZ Nmap allows you to use Nmap quickly and efficiently whether you know or don't know how to use Nmap.
 
+It has various options for scans including:
+
+-Stealth Scan
+-Light Scan
+-Moderate Scan
+-Heavy Scan
+-Super Scan
+
 # Installation
 
 ### Linux Installation:
@@ -14,7 +22,7 @@ $```git clone https://github.com/Wh1ppedKreem/NmapScript.git```
 
 Go to "NmapScript" Directory:
 
-$```cd NmapScript```
+$```cd nmapscript```
 
 Run EZ Nmap:
 
