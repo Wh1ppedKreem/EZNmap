@@ -34,4 +34,4 @@ $```python3 eznmap.py```
 ## Coming Soon
 
 - Adding colours
-- Once the tool is running, type the ```help``` command to display all the available options and what they do.
+- Once the tool is running, type option ```7``` to display all the available options and what they do.
