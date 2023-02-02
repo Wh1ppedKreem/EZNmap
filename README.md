@@ -1,6 +1,6 @@
 # EZ Nmap
 ## - Written By Kareem Balable (Wh1ppedKreem)
-So far, I have compiled my knowledge of python (which I have been learning for a few months now) into this project. 
+So far, I have compiled my knowledge of python (which I have been learning for a few months now) into this project. Since I have an interest in cyber security, I have found myself using nmap a lot, whether it was in CTF challenges or bug bounty programs so to make life easier I wrote this tool called EZ Nmap which is the first tool I wrote without using any copied code.
 
 # Description
 
