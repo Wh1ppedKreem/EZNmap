@@ -1,5 +1,5 @@
 # EZ Nmap
-- Written By Kareem Balable (Wh1ppedKreem)
+## - Written By Kareem Balable (Wh1ppedKreem)
 So far, I have compiled my knowledge of python (which I have been learning for a few months now) into this project. 
 
 # Description
