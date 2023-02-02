@@ -31,5 +31,6 @@ Run EZ Nmap:
 
 $```python3 eznmap.py```
 
-## Coming Soon
-- Once the tool is running, type option ```7``` to display all the available options and what they do.
+# New
+- Added colours
+-Added help option by selecting choice ```7```
