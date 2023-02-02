@@ -65,7 +65,7 @@ print(SPLASH, OPTIONS)
 # Main Function.
 def main():
     while True:
-        choice = int(input("Enter a choice (1-6) >>> "))
+        choice = int(input("Enter a choice (1-7) >>> "))
         
         # Checks if the user entered a valid choice.
         if choice > 7 or choice == '':
@@ -90,7 +90,7 @@ def main():
             vulnerability-scanning scripts to show you potential vulnerabilities of the services on each 
             open port by giving you links to websites and CVEs corresponding to the vulnerable service.
 
-            {tc.MAGENTA}Super Scan{tc.MAGENTA} is like Intense Scan howver you get the added option of 
+            {tc.MAGENTA}Super Scan{tc.RESET} is like Intense Scan howver you get the added option of 
             selecting a verbosity option to decide how much information you want to show e.g. verbosity 
             3 will show you much more information than Intense Scan whereas verbosity 1 will show you 
             a little more information than Intense Scan and verbosity 2 in-between verbosity 1 & 2.
