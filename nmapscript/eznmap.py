@@ -2,29 +2,44 @@ import os
 import re
 import subprocess
 
-SPLASH = """\
+# This class contains the colour codes for text in the linux terminal.
+class tc:  #tc stands for terminal colours
+    BLACK = "\u001b[30m" 
+    RED = "\u001b[31m"
+    GREEN = "\u001b[32m"
+    YELLOW = "\u001b[33m"
+    BLUE = "\u001b[34m"
+    MAGENTA = "\u001b[35m"
+    CYAN = "\u001b[36m"
+    WHITE = "\u001b[37m"
+    RESET = "\u001b[0m"
+
+SPLASH = f"""\
+{tc.MAGENTA}
 ╭━━━┳━━━━╮╭━╮╱╭┳━╮╭━┳━━━┳━━━╮
 ┃╭━━┻━━╮━┃┃┃╰╮┃┃┃╰╯┃┃╭━╮┃╭━╮┃
 ┃╰━━╮╱╭╯╭╯┃╭╮╰╯┃╭╮╭╮┃┃╱┃┃╰━╯┃
 ┃╭━━╯╭╯╭╯╱┃┃╰╮┃┃┃┃┃┃┃╰━╯┃╭━━╯
 ┃╰━━┳╯━╰━╮┃┃╱┃┃┃┃┃┃┃┃╭━╮┃┃
-╰━━━┻━━━━╯╰╯╱╰━┻╯╰╯╰┻╯╱╰┻╯
+╰━━━┻━━━━╯╰╯╱╰━┻╯╰╯╰┻╯╱╰┻╯{tc.RED}
 =============================================
-!DISCLAIMER! YOU NEED TO HAVE NMAP INSTALLED
+!DISCLAIMER! {tc.YELLOW}YOU NEED TO HAVE NMAP INSTALLED!{tc.RESET}{tc.RED}
+============================================={tc.CYAN}
 =============================================
-MADE BY KAREEM
-[Wh1ppedKreem on Github]
-=============================================
+[MADE BY {tc.GREEN}KAREEM BALABLE{tc.RESET}{tc.CYAN}]     |\/\/\|
+[{tc.GREEN}Wh1ppedKreem{tc.RESET} {tc.CYAN}on {tc.BLUE}Github]{tc.RESET}  {tc.CYAN}¯\_( ͡❛ ͜ʖ ͡❛)_/¯
+============================================={tc.RESET}
 """
 
-OPTIONS = """
+OPTIONS = f"""
 Select what type of scan you want to perform:
-[1] Stealth Scan (may take longer than light)
-[2] Light Scan
-[3] Moderate Scan
-[4] Intense Scan
-[5] Super Scan
-[6] Quit
+{tc.GREEN}[1] Stealth Scan (may take longer than light)
+{tc.YELLOW}[2] Light Scan
+{tc.CYAN}[3] Moderate Scan
+{tc.BLUE}[4] Intense Scan
+{tc.MAGENTA}[5] Super Scan
+{tc.RED}[6] Quit
+{tc.RESET}
 """
 
 # This variable contains the regular expression pattern for an IP address.
@@ -54,16 +69,18 @@ def main():
         
         # Checks if the user entered a valid choice.
         if choice > 6 or choice == '':
-            print("Invalid choice, try again")
+            print(f"{tc.RED}Invalid choice, try again")
             return main()
-        ip_address = get_user_choice(
-            is_ip_address,
-            "Enter the IP address you would like to scan >>> ",
-            "Invalid IP address, try again"
-        )
+        
+        # Quit
         if choice == 6:
             print("Quitting...")
             quit()
+        ip_address = get_user_choice(
+            is_ip_address,
+            f"{tc.GREEN}Enter the IP address you would like to scan >>> ",
+            f"{tc.RED}Invalid IP address, try again"
+        )
         if choice == 1:
             # Stealth Scan
             os.system(f"sudo nmap -T0 {ip_address}")
