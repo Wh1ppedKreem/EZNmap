@@ -39,7 +39,7 @@ Select what type of scan you want to perform:
 {tc.BLUE}[4] Intense Scan
 {tc.MAGENTA}[5] Super Scan
 {tc.RED}[6] Quit
-{tc.RESET}
+{tc.RED}[7] Help{tc.RESET}
 """
 
 # This variable contains the regular expression pattern for an IP address.
@@ -72,14 +72,38 @@ def main():
             print(f"{tc.RED}Invalid choice, try again")
             return main()
         
+        if choice == 7:
+            print(f"""
+            {tc.GREEN}Stealth Scan{tc.RESET} utilises the -T0 switch in nmap to make your  
+            scan almost undetectable however it is slow and and may not return 
+            much information compared to the next commands.
+
+            {tc.YELLOW}Light Scan{tc.RESET} utilises the -T3 switch which is the default 
+            switch in nmap and this command will output the open ports on the IP address scanned + 
+            what type of ports they are.
+
+            {tc.CYAN}Moderate Scan{tc.RESET} utilises the -sC -sV -O switches to show the the operating 
+            system and service on each open port and uses the default scripts in nmap (which are safe) 
+            to give you more information.
+
+            {tc.BLUE}Intense Scan{tc.RESET} is similar to moderate scan but also adds the utilisation of 
+            vulnerability-scanning scripts to show you potential vulnerabilities of the services on each 
+            open port by giving you links to websites and CVEs corresponding to the vulnerable service.
+
+            {tc.MAGENTA}Super Scan{tc.MAGENTA} is like Intense Scan howver you get the added option of 
+            selecting a verbosity option to decide how much information you want to show e.g. verbosity 
+            3 will show you much more information than Intense Scan whereas verbosity 1 will show you 
+            a little more information than Intense Scan and verbosity 2 in-between verbosity 1 & 2.
+            """)
+        
         # Quit
         if choice == 6:
             print("Quitting...")
             quit()
         ip_address = get_user_choice(
             is_ip_address,
-            f"{tc.GREEN}Enter the IP address you would like to scan >>> ",
-            f"{tc.RED}Invalid IP address, try again"
+            f"{tc.GREEN}Enter the IP address you would like to scan >>> {tc.RESET}",
+            f"{tc.RED}Invalid IP address, try again{tc.RESET}"
         )
         if choice == 1:
             # Stealth Scan
@@ -95,7 +119,7 @@ def main():
             os.system(f"sudo nmap -sC -sV -O --script vuln {ip_address}")
         elif choice == 5:
             # Super Scan
-            verbosity_level = input("Select verbosity level (how much info you want to show) (1/2/3) >>> ")
+            verbosity_level = input(f"{tc.MAGENTA}Select verbosity level (how much info you want to show) (1/2/3) >>> {tc.RESET}")
             verbosity_arg = f"-{'v'*verbosity_level}"
             os.system(f"sudo nmap -sC -sV -O --script vuln {verbosity_arg}", ip_address)
         else:
