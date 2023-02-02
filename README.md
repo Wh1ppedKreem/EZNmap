@@ -33,4 +33,4 @@ $```python3 eznmap.py```
 
 # New
 - Added colours
--Added help option by selecting choice ```7```
+- Added help option by selecting choice ```7```
