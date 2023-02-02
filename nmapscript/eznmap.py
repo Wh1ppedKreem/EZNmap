@@ -68,7 +68,7 @@ def main():
         choice = int(input("Enter a choice (1-6) >>> "))
         
         # Checks if the user entered a valid choice.
-        if choice > 6 or choice == '':
+        if choice > 7 or choice == '':
             print(f"{tc.RED}Invalid choice, try again")
             return main()
         
