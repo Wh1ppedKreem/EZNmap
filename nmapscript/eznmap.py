@@ -121,7 +121,7 @@ def main():
             # Super Scan
             verbosity_level = int(input(f"{tc.MAGENTA}Select verbosity level (how much info you want to show) (1/2/3) >>> {tc.RESET}"))
             verbosity_arg = f"-{'v'*verbosity_level}"
-            os.system(f"sudo nmap -sC -sV -O --script vuln {verbosity_arg} ip_address")
+            os.system(f"sudo nmap -sC -sV -O --script vuln {verbosity_arg} {ip_address}")
         else:
             # Returns to the beginning of the main function when complete.
             return main()
