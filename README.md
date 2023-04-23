@@ -14,9 +14,6 @@ It has various options for scans including:
 - Intense Scan
 - Super Scan
 
-![image](https://user-images.githubusercontent.com/78312390/216361275-03657a30-cb9d-4113-9561-e7381c438170.png)
-
-
 # Installation
 
 ### Linux Installation:
