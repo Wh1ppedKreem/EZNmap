@@ -26,7 +26,7 @@ SPLASH = f"""\
 !DISCLAIMER! {tc.YELLOW}YOU NEED TO HAVE NMAP INSTALLED!{tc.RESET}{tc.RED}
 ============================================={tc.CYAN}
 =============================================
-[MADE BY {tc.GREEN}KAREEM BALABLE{tc.RESET}{tc.CYAN}]     |\/\/\|
+[MADE BY {tc.GREEN}WhippedKreem{tc.RESET}{tc.CYAN}]     |\/\/\|
 [{tc.GREEN}Wh1ppedKreem{tc.RESET} {tc.CYAN}on {tc.BLUE}Github]{tc.RESET}  {tc.CYAN}¯\_( ͡❛ ͜ʖ ͡❛)_/¯
 ============================================={tc.RESET}
 """
