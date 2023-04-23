@@ -28,3 +28,6 @@ $```cd nmapscript```
 Run EZ Nmap:
 
 $```python3 eznmap.py```
+
+# UPDATE!!
+I wrote this script ages ago and I am now working on a pentesting framework that will be released soon.
