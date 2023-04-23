@@ -1,6 +1,6 @@
 # EZ Nmap
 ## - Written By Wh1ppedKreem
-So far, I have compiled my knowledge of python (which I have been learning for a few months now) into this project. Since I have an interest in cyber security, I found myself using nmap a lot, whether it was in CTF challenges or bug bounty programs so to make life easier I wrote this tool called EZ Nmap which is the first tool I wrote without using any code from the internet.
+So far, I have compiled my knowledge of python (which I have been learning for a few months now) into this project. Since I have an interest in cyber security, I found myself using nmap a lot, usually in CTF challenges, so to make life easier I wrote this tool called EZ Nmap which is the first script I wrote without using any code from the internet.
 
 # Description
 
