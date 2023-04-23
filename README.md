@@ -28,7 +28,3 @@ $```cd nmapscript```
 Run EZ Nmap:
 
 $```python3 eznmap.py```
-
-# New
-- Added colours
-- Added help option by selecting choice ```7```
