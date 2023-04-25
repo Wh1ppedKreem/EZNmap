@@ -1,3 +1,19 @@
+#!/usr/bin/python
+#
+# This tool is licensed under the GNU General Public License v3.0
+#
+# ╭━━━┳━━━━╮╭━╮╱╭┳━╮╭━┳━━━┳━━━╮
+# ┃╭━━┻━━╮━┃┃┃╰╮┃┃┃╰╯┃┃╭━╮┃╭━╮┃
+# ┃╰━━╮╱╭╯╭╯┃╭╮╰╯┃╭╮╭╮┃┃╱┃┃╰━╯┃
+# ┃╭━━╯╭╯╭╯╱┃┃╰╮┃┃┃┃┃┃┃╰━╯┃╭━━╯
+# ┃╰━━┳╯━╰━╮┃┃╱┃┃┃┃┃┃┃┃╭━╮┃┃
+# ╰━━━┻━━━━╯╰╯╱╰━┻╯╰╯╰┻╯╱╰┻╯
+#
+# Written by Wh1ppedKreem
+# Follow me on GitHub at: https://github.com/Wh1ppedKreem
+
+
+
 import os
 import re
 import subprocess
