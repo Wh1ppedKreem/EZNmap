@@ -3,6 +3,7 @@
 So far, I have compiled my knowledge of python (which I have been learning for a few months now) into this project. Since I have an interest in cyber security, I found myself using nmap a lot, usually in CTF challenges, so to make life easier I wrote this tool called EZ Nmap which is the first script I wrote without using any code from the internet. 
 
 UPDATE: I wrote this script ages ago and I am now working on a better, more beginner friendly, much more helpful pentesting framework with many existing tools to improve your workflow and it also focuses on ease of use. Coming soon...
+
 However feel free to still use this tool.
 
 # Description
